@@ -24,6 +24,6 @@ class Controller {
             $$variable = $data;
         }
 
-        include_once($_SERVER["DOCUMENT_ROOT"] . "/View/" . $title . ".php");
+        include_once __DIR__ . "/../View/" . $title . ".php";
     }
 }

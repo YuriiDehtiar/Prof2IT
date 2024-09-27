@@ -17,6 +17,12 @@ class ClassLoader {
     }
 
     public function load($name) {
-        include_once($_SERVER["DOCUMENT_ROOT"] . "/" . str_replace("\\", "/", $name) . ".php");
+        $path = __DIR__ . "/" . str_replace("\\", "/", $name) . ".php";
+        if (file_exists($path)) {
+            include_once $path;
+        } else {
+            echo "Файл для класу $name не знайдено за шляхом: $path";
+        }
     }
+    
 }
