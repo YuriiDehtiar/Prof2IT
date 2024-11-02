@@ -1,0 +1,2026 @@
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409129
+    [message] => Array
+        (
+            [message_id] => 216
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580724
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /start
+Handling Command: /start
+startCommand: Sent Message Response: {"ok":true,"result":{"message_id":218,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580744,"text":"\u0412\u0456\u0442\u0430\u0454\u043c\u043e \u0443 Dino Management Bot!\n\n\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u043e\u0431\u0435\u0440\u0456\u0442\u044c \u043e\u043f\u0446\u0456\u044e \u043d\u0438\u0436\u0447\u0435:","reply_markup":{"inline_keyboard":[[{"text":"\u041b\u043e\u0433\u0456\u043d","callback_data":"login"},{"text":"\u0420\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044f","callback_data":"register"}]]}}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409130
+    [message] => Array
+        (
+            [message_id] => 217
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580735
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /start
+Handling Command: /start
+startCommand: Sent Message Response: {"ok":true,"result":{"message_id":219,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580744,"text":"\u0412\u0456\u0442\u0430\u0454\u043c\u043e \u0443 Dino Management Bot!\n\n\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u043e\u0431\u0435\u0440\u0456\u0442\u044c \u043e\u043f\u0446\u0456\u044e \u043d\u0438\u0436\u0447\u0435:","reply_markup":{"inline_keyboard":[[{"text":"\u041b\u043e\u0433\u0456\u043d","callback_data":"login"},{"text":"\u0420\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044f","callback_data":"register"}]]}}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409131
+    [callback_query] => Array
+        (
+            [id] => 4054642542316879742
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 219
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580744
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":220,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580800,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409132
+    [callback_query] => Array
+        (
+            [id] => 4054642541051354967
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 219
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580744
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":221,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580801,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409133
+    [message] => Array
+        (
+            [message_id] => 222
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580810
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":223,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580811,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409134
+    [message] => Array
+        (
+            [message_id] => 224
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580816
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409135
+    [callback_query] => Array
+        (
+            [id] => 4054642538594024734
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 219
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580744
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":225,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580864,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409136
+    [message] => Array
+        (
+            [message_id] => 226
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580868
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":227,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580868,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409137
+    [message] => Array
+        (
+            [message_id] => 228
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580870
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+loginUser: Email = 1, Password = 1
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409138
+    [message] => Array
+        (
+            [message_id] => 229
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580932
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /start
+Handling Command: /start
+startCommand: Sent Message Response: {"ok":true,"result":{"message_id":230,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580933,"text":"\u0412\u0456\u0442\u0430\u0454\u043c\u043e \u0443 Dino Management Bot!\n\n\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u043e\u0431\u0435\u0440\u0456\u0442\u044c \u043e\u043f\u0446\u0456\u044e \u043d\u0438\u0436\u0447\u0435:","reply_markup":{"inline_keyboard":[[{"text":"\u041b\u043e\u0433\u0456\u043d","callback_data":"login"},{"text":"\u0420\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044f","callback_data":"register"}]]}}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409139
+    [callback_query] => Array
+        (
+            [id] => 4054642541767840533
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 230
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580933
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":231,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580934,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409140
+    [message] => Array
+        (
+            [message_id] => 232
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580937
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":233,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730580937,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409141
+    [message] => Array
+        (
+            [message_id] => 234
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730580939
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+loginUser: Email = 1, Password = 1
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409142
+    [callback_query] => Array
+        (
+            [id] => 4054642540491073340
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 230
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580933
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":235,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581178,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409143
+    [message] => Array
+        (
+            [message_id] => 236
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581183
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":237,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581183,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409144
+    [message] => Array
+        (
+            [message_id] => 238
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581184
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+loginUser: Email = 1, Password = 1
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409145
+    [callback_query] => Array
+        (
+            [id] => 4054642539833866538
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 230
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580933
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":239,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581424,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409146
+    [message] => Array
+        (
+            [message_id] => 240
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581426
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":241,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581427,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409147
+    [message] => Array
+        (
+            [message_id] => 242
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581428
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+loginUser: Email = 1, Password = 1
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409148
+    [callback_query] => Array
+        (
+            [id] => 4054642539339898809
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 230
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730580933
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":243,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581549,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409149
+    [message] => Array
+        (
+            [message_id] => 244
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581570
+            [text] => test@test
+        )
+
+)
+
+Received Message: test@test
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":245,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581570,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409150
+    [message] => Array
+        (
+            [message_id] => 246
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581575
+            [text] => test
+        )
+
+)
+
+Received Message: test
+loginUser: Email = test@test, Password = test
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+loginUser: Email = testuser@example.com, Password = testpassword
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409151
+    [message] => Array
+        (
+            [message_id] => 247
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581993
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /start
+Handling Command: /start
+startCommand: Sent Message Response: {"ok":true,"result":{"message_id":248,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581994,"text":"\u0412\u0456\u0442\u0430\u0454\u043c\u043e \u0443 Dino Management Bot!\n\n\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u043e\u0431\u0435\u0440\u0456\u0442\u044c \u043e\u043f\u0446\u0456\u044e \u043d\u0438\u0436\u0447\u0435:","reply_markup":{"inline_keyboard":[[{"text":"\u041b\u043e\u0433\u0456\u043d","callback_data":"login"},{"text":"\u0420\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044f","callback_data":"register"}]]}}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409152
+    [callback_query] => Array
+        (
+            [id] => 4054642541581620285
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 248
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730581994
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":249,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581995,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409153
+    [message] => Array
+        (
+            [message_id] => 250
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730581998
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":251,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730581998,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409154
+    [message] => Array
+        (
+            [message_id] => 252
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730582000
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+loginUser: Email = 1, Password = 1
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+loginUser: Email = testuser@example.com, Password = testpassword
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+loginUser: Email = testuser@example.com, Password = testpassword
+getUserByEmail.
+loginUser: Email = testuser@example.com, Password = testpassword
+loginUser: User not found in database.
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+loginUser: Authentication failed.
+clearUserState: 1289
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409155
+    [callback_query] => Array
+        (
+            [id] => 4054642541091320740
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 248
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730581994
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":253,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730582284,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409156
+    [message] => Array
+        (
+            [message_id] => 254
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730582286
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":255,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730582286,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409157
+    [message] => Array
+        (
+            [message_id] => 256
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730582288
+            [text] => 1
+        )
+
+)
+
+Received Message: 1
+loginUser: Email = 1, Password = 1
+getUserByEmail.
+loginUser: Email = 1, Password = 1
+loginUser: User not found in database.
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":257,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730582288,"text":"\u041d\u0435\u0432\u0456\u0440\u043d\u0438\u0439 email \u0430\u0431\u043e \u043f\u0430\u0440\u043e\u043b\u044c."}}
+loginUser: Authentication failed.
+clearUserState: 5239012328
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409158
+    [message] => Array
+        (
+            [message_id] => 258
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730582297
+            [text] => test@test
+        )
+
+)
+
+Received Message: test@test
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'"}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409159
+    [callback_query] => Array
+        (
+            [id] => 4054642541782096168
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 248
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730581994
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":259,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730582301,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409160
+    [message] => Array
+        (
+            [message_id] => 260
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730582307
+            [text] => test@test
+        )
+
+)
+
+Received Message: test@test
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":261,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730582308,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409161
+    [message] => Array
+        (
+            [message_id] => 262
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730582310
+            [text] => test
+        )
+
+)
+
+Received Message: test
+loginUser: Email = test@test, Password = test
+getUserByEmail.
+loginUser: Email = test@test, Password = test
+loginUser: User found in database.
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":263,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730582310,"text":"\u041b\u043e\u0433\u0456\u043d \u0443\u0441\u043f\u0456\u0448\u043d\u0438\u0439! \u0422\u0435\u043f\u0435\u0440 \u0432\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0432\u0430\u0442\u0438 \u0444\u0443\u043d\u043a\u0446\u0456\u0457 \u0431\u043e\u0442\u0430."}}
+loginUser: User authenticated successfully.
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409162
+    [message] => Array
+        (
+            [message_id] => 264
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584252
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /start
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":265,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584254,"text":"\u041d\u0435\u0432\u0456\u0434\u043e\u043c\u0430 \u0434\u0456\u044f."}}
+clearUserState: 5239012328
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409163
+    [message] => Array
+        (
+            [message_id] => 266
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584329
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /start
+Handling Command: /start
+startCommand: Sent Message Response: {"ok":true,"result":{"message_id":267,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584330,"text":"\u0412\u0456\u0442\u0430\u0454\u043c\u043e \u0443 Dino Management Bot!\n\n\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u043e\u0431\u0435\u0440\u0456\u0442\u044c \u043e\u043f\u0446\u0456\u044e \u043d\u0438\u0436\u0447\u0435:","reply_markup":{"inline_keyboard":[[{"text":"\u041b\u043e\u0433\u0456\u043d","callback_data":"login"},{"text":"\u0420\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044f","callback_data":"register"}]]}}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409164
+    [callback_query] => Array
+        (
+            [id] => 4054642541693845187
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [message] => Array
+                (
+                    [message_id] => 267
+                    [from] => Array
+                        (
+                            [id] => 7930645759
+                            [is_bot] => 1
+                            [first_name] => Dino Management System
+                            [username] => DinoManagementSystem_bot
+                        )
+
+                    [chat] => Array
+                        (
+                            [id] => 5239012328
+                            [first_name] => Інна
+                            [last_name] => Миколаївна
+                            [type] => private
+                        )
+
+                    [date] => 1730584330
+                    [text] => Вітаємо у Dino Management Bot!
+
+Будь ласка, оберіть опцію нижче:
+                    [reply_markup] => Array
+                        (
+                            [inline_keyboard] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Логін
+                                                    [callback_data] => login
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [text] => Реєстрація
+                                                    [callback_data] => register
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [chat_instance] => -2761769935257974799
+            [data] => login
+        )
+
+)
+
+Received Callback Data: login
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":268,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584348,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 email."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409165
+    [message] => Array
+        (
+            [message_id] => 269
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584361
+            [text] => test@test
+        )
+
+)
+
+Received Message: test@test
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":270,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584361,"text":"\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0432\u0435\u0434\u0456\u0442\u044c \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c."}}
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409166
+    [message] => Array
+        (
+            [message_id] => 271
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584363
+            [text] => test
+        )
+
+)
+
+Received Message: test
+loginUser: Email = test@test, Password = test
+getUserByEmail.
+loginUser: Email = test@test, Password = test
+loginUser: User found in database.
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":272,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584363,"text":"\u041b\u043e\u0433\u0456\u043d \u0443\u0441\u043f\u0456\u0448\u043d\u0438\u0439! \u0422\u0435\u043f\u0435\u0440 \u0432\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0432\u0430\u0442\u0438 \u0444\u0443\u043d\u043a\u0446\u0456\u0457 \u0431\u043e\u0442\u0430.\n/listdinos - \u041f\u043e\u043a\u0430\u0437\u0430\u0442\u0438 \u0441\u043f\u0438\u0441\u043e\u043a \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u0456\u0432/adddino <\u0456\u043c'\u044f> <\u0442\u0438\u043f> <\u043a\u043e\u043b\u0456\u0440> - \u0414\u043e\u0434\u0430\u0442\u0438 \u043d\u043e\u0432\u043e\u0433\u043e \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u0430\n/deletedino <ID \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u0430> - \u0414\u043b\u044f \u0432\u0438\u0434\u0430\u043b\u0435\u043d\u043d\u044f \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u0430","entities":[{"offset":62,"length":10,"type":"bot_command"},{"offset":157,"length":11,"type":"bot_command"}]}}
+loginUser: User authenticated successfully.
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409167
+    [message] => Array
+        (
+            [message_id] => 273
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584429
+            [text] => /listdinos
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 10
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /listdinos
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":274,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584430,"text":"\u041d\u0435\u0432\u0456\u0434\u043e\u043c\u0430 \u0434\u0456\u044f."}}
+clearUserState: 5239012328
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409168
+    [message] => Array
+        (
+            [message_id] => 275
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584432
+            [text] => /listdinos
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 10
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /listdinos
+Handling Command: /listdinos
+TelegramController: Entering listDinosCommand.
+TelegramController: Calling getAllDinos.
+DinoModel: Starting getAllDinos.
+DinoModel: Preparing to execute query.
+DinoModel: Query executed successfully.
+DinoModel: Fetched Dino: Array
+(
+    [idDino] => 1
+    [Dino_Name] => Tron Rex
+    [Dino_Type] => Rex
+    [Color_Name] => Tron
+)
+
+DinoModel: Fetched Dino: Array
+(
+    [idDino] => 2
+    [Dino_Name] => Tron Bronto
+    [Dino_Type] => Brontosaurus
+    [Color_Name] => Red
+)
+
+DinoModel: Fetched Dino: Array
+(
+    [idDino] => 3
+    [Dino_Name] => Red Bronto
+    [Dino_Type] => Brontosaurus
+    [Color_Name] => Red
+)
+
+DinoModel: Retrieved 3 dinos.
+TelegramController: getAllDinos returned 3 dinos.
+TelegramController: After getAllDinos.
+TelegramController: Sending dinos list message.
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":276,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584434,"text":"\u0421\u043f\u0438\u0441\u043e\u043a \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u0456\u0432:\n\nID: 1\n\u0406\u043c'\u044f: Tron Rex\n\u0422\u0438\u043f: Rex\n\u041a\u043e\u043b\u0456\u0440: Tron\n\nID: 2\n\u0406\u043c'\u044f: Tron Bronto\n\u0422\u0438\u043f: Brontosaurus\n\u041a\u043e\u043b\u0456\u0440: Red\n\nID: 3\n\u0406\u043c'\u044f: Red Bronto\n\u0422\u0438\u043f: Brontosaurus\n\u041a\u043e\u043b\u0456\u0440: Red"}}
+TelegramController: Sent dinos list message.
+Successfully connected to the database with utf8mb4 charset.
+DinoModel initialized successfully.
+UserModel initialized successfully.
+Received Update: Array
+(
+    [update_id] => 757409169
+    [message] => Array
+        (
+            [message_id] => 277
+            [from] => Array
+                (
+                    [id] => 5239012328
+                    [is_bot] => 
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 5239012328
+                    [first_name] => Інна
+                    [last_name] => Миколаївна
+                    [type] => private
+                )
+
+            [date] => 1730584652
+            [text] => /deletedino
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 11
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+Received Message: /deletedino
+Handling Command: /deletedino
+sendMessage: Sending POST request to Telegram API.
+sendMessage: Sent Message Response: {"ok":true,"result":{"message_id":278,"from":{"id":7930645759,"is_bot":true,"first_name":"Dino Management System","username":"DinoManagementSystem_bot"},"chat":{"id":5239012328,"first_name":"\u0406\u043d\u043d\u0430","last_name":"\u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u043d\u0430","type":"private"},"date":1730584653,"text":"\u041d\u0435\u0432\u0456\u0440\u043d\u0438\u0439 \u0444\u043e\u0440\u043c\u0430\u0442 \u043a\u043e\u043c\u0430\u043d\u0434\u0438. \u0412\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0439\u0442\u0435:\n/deletedino <ID \u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440\u0430>","entities":[{"offset":41,"length":11,"type":"bot_command"}]}}

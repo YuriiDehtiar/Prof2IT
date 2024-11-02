@@ -1,10 +1,26 @@
 <?php
+// index.php
+
+// Включення відображення помилок (для розробки)
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-include_once("ClassLoader.php");
+// Підключаємо ClassLoader
+require_once("ClassLoader.php");
 
+// Підключаємо loadEnv.php
+require_once("utils/loadEnv.php");
+
+// Завантажуємо змінні середовища з .env
+try {
+    loadEnv(__DIR__ . '/.env');
+} catch (Exception $e) {
+    die("Не вдалося завантажити .env файл: " . $e->getMessage());
+}
+
+// Ініціалізація автозавантаження класів
 ClassLoader::getInstance();
 
-Application::getInstance()->init();
+// Ініціалізація додатку
+\Controller\Application::getInstance()->init();
